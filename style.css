@@ -7,3 +7,11 @@ Description: A basic theme using the Bootstrap framework.
 Version: 1.0
 Text Domain: agmaTheme
 */
+#menu-menu2 >li>a{
+	width: 180px;
+	height: 64px;
+    text-align: center;
+   } 
+   #menu-menu2>li>ul{
+    margin-top: 5px;
+   }

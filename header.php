@@ -29,18 +29,21 @@
  
          <div  class="col-auto">
          <?php wp_nav_menu( array( 'theme_location' => 'main_nav', 'menu_class' => 'nav' ) ); ?>
-             <div class="text-right mr-3">
+             <div class="text-right mr-3 mt-1">
                    <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/facebook.png" class="img-responsive mt-1">
                    <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/linkedin.png" class="img-responsive mt-1">
              </div>
-             <div class="mt-1 form-inline">
-                    
+             <div class="mt-2">
+             <?php
+                    get_search_form();
+                   ?>
+
              </div> 
          </div>
       </div>
       <div class="row mt-1">
-         <div class="col">
-           
+         <div class="col text-center">
+         <?php wp_nav_menu( array( 'theme_location' => 'main_nav2', 'menu_class' => 'sf-menu' ) ); ?>
          </div>
       </div>   
    </header>
