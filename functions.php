@@ -49,7 +49,8 @@ function agmaTheme_custom_new_menu() {
     register_nav_menus(
         array(
             'main_nav'=>__( 'Menu One' ),
-            'main_nav2'=>__( 'Menu Two' )
+            'main_nav2'=>__( 'Menu Two' ),
+            'main_nav3'=>__( 'Menu Footer' )
         )
         
     
