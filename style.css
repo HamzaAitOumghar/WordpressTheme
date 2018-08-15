@@ -19,12 +19,16 @@ Text Domain: agmaTheme
     margin-top: 0px;
    #menu-menu2 > li {
     word-break: break-word; 
+border: 1px solid red;
+    word-break: break-all;
 }
 } */
 
 #menu-menu2 >li>a{
-	/* width: 180px;
-    height: 64px; */
-    word-break: break-word; 
-   
+    
+    white-space: normal; 
+     width: 180px;
+     height: 74px; 
+        font-weight: bold;
+        font-size: 14px;   
  } 
