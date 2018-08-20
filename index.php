@@ -25,11 +25,12 @@
                 <div class="card mt-1">
                       <div class="card-header">Actualités</div>
                       <div class="card-body text-center">
-                      <?php echo do_shortcode('[numixslider id=\'1\']'); ?>
+                        
+                        <?php echo do_shortcode('[numixslider id=\'1\']'); ?>
 
 
                       <div class="text-right mt-2">
-                           <a href="#" class="btn btn-primary"> <span class="oi oi-plus"></span> Tous les articles</a>  
+                           <a href="<?php echo get_category_link(193) ; ?>" class="btn btn-primary"> <span class="oi oi-plus"></span> Tous les articles</a>  
                       </div>
                       </div>
                       

@@ -18,25 +18,25 @@
                             <h6>Assurance particuliers : </h6>
                                 
                             <ul>
-                                    <li><a href="#">Assurance Automobile</a></li>
-                                    <li><a href="#">Assurance Assistance</a></li>
-                                    <li><a href="#"> Assurance Maladie, incapacité, décès</a></li>
-                                    <li><a href="#">Assurance Multirisques habitation</a></li>
-                                    <li><a href="#">Assurance Individuelle accidents</a></li>
-                                    <li><a href="#">Assurance Retraite</a></li>
+                                    <li><a href="<?php echo get_permalink(1800) ?>">Assurance Automobile</a></li>
+                                    <li><a href="<?php echo get_permalink(1802) ?>">Assurance Assistance</a></li>
+                                    <li><a href="<?php echo get_permalink(1804) ?>"> Assurance Maladie, incapacité, décès</a></li>
+                                    <li><a href="<?php echo get_permalink(1806) ?>">Assurance Multirisques habitation</a></li>
+                                    <li><a href="<?php echo get_permalink(1808) ?>">Assurance Individuelle accidents</a></li>
+                                    <li><a href="<?php echo get_permalink(1810) ?>">Assurance Retraite</a></li>
                                 </ul>
 
                             </div>
                             <div class="col-3">
                             <h6>Assurance entreprises :</h6>
                             <ul>
-                                <li>  <a href="#">Multirisques industrielle</a></li>
-                                <li>  <a href="#">Pertes d‘exploitation</a></li>
-                                <li>  <a href="#">Bris de machines</a></li>
-                                <li>  <a href="#">Vol</a></li>
-                                <li>  <a href="#">Responsabilité Civile</a></li>
-                                <li>  <a href="#">Responsabilité Décennale</a></li>
-                                <li>  <a href="#">Contrat d'assistance</a></li>
+                                <li>  <a href="<?php echo get_permalink(1812) ?>">Multirisques industrielle</a></li>
+                                <li>  <a href="<?php echo get_permalink(1814) ?>">Pertes d‘exploitation</a></li>
+                                <li>  <a href="<?php echo get_permalink(1816) ?>">Bris de machines</a></li>
+                                <li>  <a href="<?php echo get_permalink(1818) ?>">Vol</a></li>
+                                <li>  <a href="<?php echo get_permalink(1820) ?>">Responsabilité Civile</a></li>
+                                <li>  <a href="<?php echo get_permalink(1822) ?>">Responsabilité Décennale</a></li>
+                                <li>  <a href="<?php echo get_permalink(1824) ?>">Contrat d'assistance</a></li>
                                 
 
                             </ul>
@@ -45,13 +45,13 @@
                             <div class="col-3">
                                 <h6> &nbsp;</h6>
                                 <ul>
-                                <li>  <a href="#">Assurance facultés maritimes</a></li>
-                                <li>  <a href="#">Assurances Marchandises Transportées</a></li>
-                                <li>  <a href="#">Assurance Responsabilité Mandataires sociaux</a></li>
-                                <li>  <a href="#">Assurance Transport</a></li>
-                                <li>  <a href="#">Assurance Automobile</a></li>
-                                <li>  <a href="#">Assurance Assistance</a></li>
-                                <li>  <a href="#">Assurance Maritime</a></li>
+                                <li>  <a href="<?php echo get_permalink(1826) ?>">Assurance facultés maritimes</a></li>
+                                <li>  <a href="<?php echo get_permalink(1828) ?>">Assurances Marchandises Transportées</a></li>
+                                <li>  <a href="<?php echo get_permalink(1830) ?>">Assurance Responsabilité Mandataires sociaux</a></li>
+                                <li>  <a href="<?php echo get_permalink(1832) ?>">Assurance Transport</a></li>
+                                <li>  <a href="<?php echo get_permalink(1834) ?>">Assurance Automobile</a></li>
+                                <li>  <a href="<?php echo get_permalink(1837) ?>">Assurance Assistance</a></li>
+                                <li>  <a href="<?php echo get_permalink(1839) ?>">Assurance Maritime</a></li>
                                 </ul>
 
                             </div>
@@ -59,9 +59,9 @@
                             <h6> Assurances de personnes :</h6>
 
                                 <ul>
-                                    <li>  <a href="#"> Assurance Décès</a></li>
-                                    <li>   <a href="#">Assurance Accidents du travail</a></li>
-                                    <li> <a href="#"> Assurance Maladies professionnelles</a></li>
+                                    <li>  <a href="<?php echo get_permalink(1841) ?>"> Assurance Décès</a></li>
+                                    <li>  <a href="<?php echo get_permalink(1843) ?>">Assurance Accidents du travail</a></li>
+                                    <li>  <a href="<?php echo get_permalink(1845) ?>"> Assurance Maladies professionnelles</a></li>
                                     <li>  <a href="<?php echo get_permalink(1847) ?>">Assurance Retraite</a></li>
                                 </ul>
 

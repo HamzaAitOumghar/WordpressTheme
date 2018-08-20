@@ -42,8 +42,8 @@
          </div>
       </div>
       <div class="row mt-1">
-         <div class="col text-center">
-         <?php wp_nav_menu( array( 'theme_location' => 'main_nav2', 'menu_class' => 'sf-menu mx-auto' ) ); ?>
+         <div class="col-12 text-center">
+         <?php wp_nav_menu( array( 'theme_location' => 'main_nav2', 'menu_class' => 'sf-menu d-flex justify-content-center' ) ); ?>
          </div>
       </div>   
    </header>

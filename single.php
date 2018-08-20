@@ -24,24 +24,26 @@
 </div>
 
 
-    <div class="shadow-sm bg-light rounded">
-    <?php 
-        $id=get_the_ID();
+    <div class="shadow-sm bg-light rounded p-1">
+        <div class="p-1">
+                <?php 
+                    $id=get_the_ID();
 
-        if ( have_posts() ) : while ( have_posts() ) : the_post();
-            ?>
-            
-                        <div class="display-4 p-1 text-primary text-center"> <?php echo get_the_title($id); ?> </div>
-              <?php
-                      the_content();
-                      
-                    
-                    endwhile; 
-         else: ?>
-            <p>Sorry, no posts matched your criteria.</p>
-        <?php 
-        endif; 
-    ?>
+                    if ( have_posts() ) : while ( have_posts() ) : the_post();
+                        ?>
+                        
+                                    <div class="display-4 p-1 text-primary text-center"> <?php echo get_the_title($id); ?> </div>
+                        <?php
+                                the_content();
+                                
+                                
+                                endwhile; 
+                    else: ?>
+                        <p>Sorry, no posts matched your criteria.</p>
+                    <?php 
+                    endif; 
+                ?>
+    </div>
 </div>
         
 

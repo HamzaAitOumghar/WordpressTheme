@@ -1,4 +1,6 @@
-<form role="search" method="get" action="<?php home_url('/'); ?>">
+
+
+<form role="search" method="get" action="<?php echo esc_url( home_url( '/' ) ); ?>">
 
 
       <div class="input-group" >
