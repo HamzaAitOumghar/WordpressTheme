@@ -26,7 +26,9 @@
                       <div class="card-header">Actualités</div>
                       <div class="card-body text-center">
                         
-                        <?php echo do_shortcode('[numixslider id=\'1\']'); ?>
+                          <?php 
+                              echo do_shortcode('[smartslider3 slider=3]');
+                          ?>
 
 
                       <div class="text-right mt-2">
